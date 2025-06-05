@@ -26,27 +26,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 
-            ColorBoxScreen()
+            //test
         }
     }
 }
 
-@Composable
-fun ColorBoxScreen() {
-    Column(
-        modifier = Modifier
-            .background(Color(0xFF8000D7))
-            .fillMaxSize()
-            .padding(10.dp)
-            .border(10.dp, Color.Blue)
-            .padding(5.dp)
-            .border(5.dp, Color.Red)
-            .padding(5.dp)
-            .background(Color.Green)
-            .padding(10.dp)
-    ) {
-        Text("Hello", color = Color.Black)
-        Spacer(modifier = Modifier.height(50.dp))
-        Text("World", color = Color.Black)
-    }
-}
+
